@@ -1,0 +1,713 @@
+/** Fontes **/
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+/** Fim de fontes **/
+
+/* Fonts */
+.js-job-item-name {
+    font-family: 'Cinzel', serif;
+    font-size: 20px;
+    text-shadow: 0 0 1px darkcyan;
+}
+
+/* Job unavailable */
+div.mb-0.rounded-0.pw-banner.align-items-center.alert {
+    background-color: #353535;
+}
+
+/* Withdraws */
+div.site.d-flex.flex-column.min-vh-100 {
+    background: #131313;
+    color: white;
+}
+
+/* Quantia já sacada */
+td.table-cell-cost {
+    color: #f5f5f5 !important;
+    font-family: 'EB Garamond', serif;
+}
+
+/* Métodos de saque */
+a.withdraw-method.h-100 {
+    background-color: #282828;
+    color: #c2c2c2;
+    border-radius: 10px;
+    padding: 14px;
+}
+
+/*Métodos de saque: hover */
+a.withdraw-method.h-100:hover {
+    background-color: #303030;
+}
+
+/* Saque: Ativado */
+a.withdraw-method.h-100:before {
+    background: #424242 !important;
+}
+
+/* Texto: Withdraw */
+p.text-size-info.m-0.pr-1.font-weight-light.text-dark-2 {
+    color: #c2c2c2 !important;
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+}
+
+/* Texto: Quantia mínina/total */
+p.text-lg.m-0.pl-1.font-weight-medium.text-dark {
+    color: #b2b2b2 !important;
+}
+
+/* Selecione withdraw */
+p.text-lg.mb-4.pr-1.font-weight-medium.text-dark {
+    color: #b2b2b2 !important;
+}
+
+/* Withdraw: Importante */
+div#paypal-box.important-box {
+    background: #323232;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+/* Withdraw: Importante text */
+h4.h2 {
+    color: #f2f2f2;
+}
+
+/* Withdraw: concordo */
+label.custom-control-label.text-dark {
+    color: lightgray !important;
+}
+
+/*Withdraw: importante: after */
+div#paypal-box.important-box:before {
+    background: transparent;
+}
+
+
+form {
+    background-color: #131313;
+}
+
+/* Método escolhido */
+/* header */
+div.card-header.px-5.pt-5.pb-0 {
+    background: #282828;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+    box-shadow: #333333;
+}
+
+/* Header: Texto: Your Choice */
+h3.mb-0.pr-3 {
+    color: #f2f2f2;
+    margin-bottom: 20px !important;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+/* header: cancelar */
+a.btn.btn-ghost.btn-with-icon.p-0 {
+    margin-bottom: 17px;
+}
+
+/* Body */
+div.card-body.px-5.pt-5 {
+    background-color: #222222;
+}
+
+/* Body: escolhido */
+div.add-method.rounded.add-method--added {
+    background: #272727;
+}
+
+
+
+/**/
+a.nav-link.active {
+    color: #ffffff !important;
+}
+
+a::active {
+    text-decoration: none;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+/* Footer */
+p.text-muted.mb-md-0 {
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+}
+
+/* footer social */
+i.fab.fa-reddit-square,
+i.fab.fa-twitter,
+i.fab.fa-facebook-square,
+i.fas.fa-envelope {
+    color: white;
+}
+
+.symbol.symbol--danger.ml-1 {
+    width: 100px;
+    height: 30px;
+    border-radius: 6px;
+    padding: 8px;
+    font-size: 12px;
+    font-family: 'Josefin Slab', serif;
+}
+
+/* Nome dos empregadores */
+span.text-dark {
+    color: #b2b2b2 !important;
+    font-family: 'Titillium Web', sans-serif;
+
+}
+
+/* LVL da tarefa */
+span.text-starter {
+    font-size: 16px;
+    font-family: 'Dosis', sans-serif;
+    color: #b2b2b2;
+    margin-left: 2px;
+}
+
+/* Nac. Tarefa */
+span.fw-medium.text-gray {
+    font-size: 17px;
+    font-family: 'Dosis', sans-serif;
+}
+
+/* Navbar */
+.container-fluid.container-fluid--max-lg,
+.navbar.navbar-expand-lg.navbar-light {
+    background-color: #181818;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/* Navbar 2 */
+.site-notice {
+    background-color: #202020;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+/* Fundo geral */
+.main {
+    background-color: #131313;
+}
+
+/* Navbar 2 textos */
+.mr-2 {
+    color: #e5e5e5;
+    font-family: 'Staatliches', cursive;
+}
+
+span#earned-balance,
+span {
+    color: #b2b2b2;
+}
+
+#job-search-results {
+    color: white;
+}
+
+.mb-0.mr-4.results-bar__total.pb-2.pb-md-0 {
+    color: #cccccc;
+}
+
+/* Botão */
+.d-none.d-lg-block.btn.btn-primary.btn-md.navbar__post-job.ml-4 {
+    background-color: #2d5b54;
+    box-shadow: 0 0 5px #567B76;
+    border-radius: 8px;
+    border-width: 0px;
+    text: sdsss;
+}
+
+/* List */
+.job-bar__inner {
+    background-color: #191919;
+    box-shadow: 0 0 3px #202020;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 0px;
+    padding-top: 32px;
+    margin: 20px;
+}
+
+.job-bar.is-premium .job-bar__inner {
+    background: #202020;
+    border-radius: 10px;
+    box-shadow: inset 3px 0 0 #B270A9;
+    border-radius: 15px;
+}
+
+.job-bar.is-premium .job-bar__inner:hover {
+    box-shadow: inset 3px 0 0 #8E5A87;
+}
+
+.jobs__item-cell.jobs__item-cell--success.text-center.p-0 {
+    color: #c5c5c5;
+}
+
+.text-lg.fw-normal.align-top.pt-1.d-inline-block {
+    color: gold;
+    padding-right: 5px;
+}
+
+/* Top icons */
+.far.fa-question-circle,
+.fas.fa-history,
+.far.fa-bell {
+    color: #c5c5c5;
+}
+
+/* Categorias */
+.page-filters.mb-5 {
+    background: #202020;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0 0 4px #232323;
+}
+
+.mb-3 {
+    color: #b2b2b2;
+    font-family: 'EB Garamond', serif;
+    font-size: 24px !important;
+}
+
+/* Navbar titles */
+.container-fluid.container-fluid--max-lg {
+    font-family: 'EB Garamond', serif;
+    font-size: 16px;
+}
+
+.footer.mt-auto {
+    background-color: #181818;
+}
+
+.mb-0.load-more-loaded {
+    color: #c2c2c2;
+}
+
+/* List Job + Featured Job */
+.symbol.symbol--list.ml-1 {
+    padding: 7px;
+    border-radius: 6px;
+    background-color: #6495ED;
+    color: white;
+    font-family: 'Dosis', sans-serif;
+    font-size: 14px;
+    box-shadow: 0 0 2px #6F8FAF;
+    width: 100px;
+    word-spacing: 3px;
+}
+
+.ttu.symbol.symbol--premium.ml-2 {
+    padding: 8px;
+    border-radius: 6px;
+    background-color: #673147;
+    color: white;
+    font-family: 'Josefin Slab', serif;
+    font-size: 12px;
+    border-width: 0px;
+    border-style: solid;
+    box-shadow: 0 0 6px #2C0A28;
+    width: 120px;
+    word-spacing: 3px;
+}
+
+/* Search */
+.form-control.text-center {
+    background-color: #232323;
+    border-radius: 8px;
+    box-shadow: 0 0 3px #252525;
+    color: #c2c2c2;
+}
+
+.form-control.text-center::placeholder {
+    color: #c2c2c2;
+    font-size: 14px;
+    font-style: italic;
+}
+
+/* Progresso */
+.job-bar__progress {
+    color: #6495ED;
+}
+
+/* Quanto paga */
+.text-xl.fw-bold.d-inline-block {
+    font-family: 'Josefin Slab', serif;
+    font-size: 24px;
+}
+
+/* Notificações */
+.notifications__inner {
+    background-color: #181818;
+}
+
+.notification__text {
+    color: white;
+    font-size: 16px;
+    font-family: 'Josefin Slab', serif;
+}
+
+.notifications.dropdown-menu.dropdown-menu-right.custom-scrollbar-css.show {
+    background-color: #202020;
+}
+
+/* tarefas */
+.alert.alert-success.w-100.d-flex.justify-content-between.align-items-center {
+    background-color: #191919;
+    border-radius: 10px;
+    box-shadow: 0 0 5px #232323;
+}
+
+.job-info {
+    background-color: #171717;
+    border-radius: 12px;
+    box-shadow: red;
+}
+
+.m-0,
+h4 {
+    color: #4086ff;
+}
+
+/* In-task: Submit */
+.smooth-scroll.btn.btn-secondary.btn-sm.flex-shrink-0.ml-3 {
+    background-color: #232323;
+    border-radius: 6px;
+    border-width: 0px;
+    padding: 12px;
+    margin: 5px;
+    width: 150px;
+    box-shadow: 0 0 3px #303030;
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: uppercase;
+}
+
+/*In-task: HOLD */
+a#hold-job.btn.btn-primary {
+    color: white;
+    border-radius: 7px;
+    width: 145px;
+    height: 40px;
+    margin: 8px;
+    padding: 11px;
+    background-color: #2d5b54;
+    border-width: 0px;
+    text-transform: capitalize !important;
+    font-family: 'Dosis', sans-serif;
+    font-size: 13px;
+    box-shadow: 0 0 5px #567B76;
+}
+
+/* Carteira */
+.headline.h1 {
+    color: #4086ff;
+}
+
+#payments-tab.nav-link.active,
+#transactions-tab.nav-link.active {
+    background: #282828;
+    border-style: solid;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    color: #c2c2c2;
+    width: 160px;
+}
+
+
+/* Unfollow */
+.btn.btn-secondary.fl-unfl-employer {
+    background-color: #202020;
+    border-width: 0px;
+    border-radius: 7px;
+    padding: 12px;
+    width: 215px;
+    margin: 0px;
+    text-decoration: none;
+    font-size: 13px;
+    font-family: 'Josefin Slab', serif;
+    text-transform: uppercase;
+}
+
+.headline.mb-2 {
+    color: #4086ff;
+    font-family: 'Cinzel', serif;
+}
+
+
+/* Requisitos da tarefa */
+.py-1 {
+    color: #c2c2c2;
+    font-family: 'Cinzel', serif;
+    font-size: 17px;
+    word-spacing: 2.5px;
+}
+
+.mt-4.pl-5 {
+    color: #b20000;
+    word-spacing: 2px;
+    font-family: 'Josefin Slab', serif;
+    font-size: 20px;
+    word-wrap: 7px;
+}
+
+/* Provas */
+.form-group {
+    color: #c2c2c2;
+    font-family: 'Cinzel', serif;
+    font-size: 18px;
+    word-spacing: 2.5px;
+    padding: 10px;
+}
+
+.form-control {
+    background-color: #252525;
+    border-radius: 8px;
+    font-size: 17px;
+    box-shadow: 0 0 3px #282828;
+    color: white;
+    word-spacing: 1px;
+    padding-left: 14px;
+    padding-top: 14px;
+}
+
+.form-control::placeholder {
+    color: #b2b2b2;
+    font-size: 17px;
+}
+
+.form-control:focus {
+    background: #323232;
+    color: white;
+    padding-left: 14px;
+    padding-top: 14px;
+    font-size: 18px;
+}
+
+/* Cancelar tarefa */
+.btn.btn-gray.btn-lg {
+    background: #660000;
+    border-radius: 8px;
+    width: 170px;
+    height: 65px;
+    padding-top: 20px;
+    font-size: 16px;
+    font-family: 'Anton', sans-serif;
+    color: white;
+    letter-spacing: 2px;
+    border-width: 0px;
+}
+
+/* Submit tarefa */
+.btn.btn-primary.btn-lg {
+    border-radius: 6px;
+    width: 250px;
+    box-shadow: 0 0 3px #252525;
+    height: 65px;
+    font-size: 16px;
+    background-color: #174036;
+    border-color: #12332b;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    border-width: 0px;
+}
+
+/* Erro tarefa: Tarefa não disponível */
+.swal2-popup.swal2-modal.swal2-icon-error.swal2-show {
+    background-color: #252525;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Josefin Slab', serif;
+}
+
+.swal2-confirm.swal2-styled {
+    width: 250px;
+    font-family: 'Anton', sans-serif;
+    border-width: 3px;
+    border-radius: 8px;
+}
+
+#swal2-title.swal2-title {
+    color: #c2c2c2;
+    font-size: 30px;
+}
+
+/* Erro tarefa: Tarefa finalizada */
+.swal2-popup.swal2-modal.swal2-icon-success.swal2-show {
+    background-color: #252525;
+}
+
+
+/* Withdraw */
+.table td,
+.table th {
+    color: white;
+    background-color: #232323;
+}
+
+.btn.btn-primary.btn-lg.btn-block.mb-5 {
+    color: white;
+    padding: 20px;
+}
+
+/* .table th, .table td:hover{
+  background-color: #252525 !important;
+} */
+.clickable:hover {
+    background: red;
+}
+
+.page-filter__options {
+    background-color: #232323;
+}
+
+.btn.btn-gray {
+    background-color: #262626;
+    border-width: 1px;
+    border-color: #262626;
+}
+
+p {
+    color: #c2c2c2;
+}
+
+/* Tamanho das provas */
+textarea#proof_1.form-control,
+textarea#proof_2.form-control,
+textarea#proof_3.form-control,
+textarea#proof_4.form-control,
+textarea#proof_5.form-control {
+    height: 160px;
+}
+
+/* Cifrão tarefa */
+small.text-lg.fw-normal.pt-1.d-inline-block.mr-1 {
+    color: white;
+}
+
+/* Novo ticket */
+div.message-editor {
+    background-color: #131313;
+}
+
+input#subject.form-control {
+    background-color: #303030;
+    border-radius: 7px;
+}
+
+span.select2-selection.select2-selection--single {
+    background: #303030;
+    border-radius: 7px;
+}
+
+textarea#message {
+    background: #303030;
+    border-radius: 7px;
+    color: #c2c2c2;
+}
+
+textarea#message::placeholder {
+    color: white;
+}
+
+button#submit-btn.btn.btn-primary.btn-with-icon.rounded-lg.mt-2.mt-md-0.ttn {
+    width: 140px;
+    height: 50px;
+    font-size: 20px;
+}
+
+i.pw-icon.pw-icon-paperplane {
+    margin: 6px;
+}
+
+.select2-results__options {
+    background-color: #303030;
+    color: #c2c2c2 !important;
+}
+
+.select2-category-results {
+    background-color: red !important;
+}
+
+/* Opções de categoria */
+.select2-results__option .select2-results__option--highlighted,
+.select2-results__group {
+    color: #c2c2c2;
+}
+
+
+/* Info */
+div.p-4.bg-gray.text-lg {
+    background: #303030 !important;
+    border-radius: 10px;
+    font-family: 'Josefin Slab', serif;
+    font-size: 18px;
+}
+
+/* Ticket respondido */
+a.position-relative.messages-item {
+    background: #161616;
+}
+
+div.card-body {
+    background-color: #202020;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-family: 'Abel', sans-serif;
+    font-size: 20px;
+}
+
+div.card.bg-gray.mb-2.ticket-entry {
+    background: #131313 !important;
+}
+
+div.card-header.d-flex.justify-content-between {
+    background: #171717;
+    box-shadow: 0 0 5px #232323;
+}
+
+button.btn.btn-danger.btn-lg.btn-block.mb-7.close-ticket.submit-btn {
+    border-radius: 10px;
+    font-family: 'Abel', sans-serif;
+}
+
+/* preview tarefa */
+div.side-popup__content.job-window__content {
+    background-color: #232323;
+}
+
+/* Botão accept */
+a.btn.btn-primary.btn-lg {
+    padding: 6px;
+    padding-top: 23px;
+}
+
+/* Botão cancel */
+button.btn.btn-gray.btn-lg.side-popup__close {
+    padding-top: 12px;
+}
+
+/* título preview */
+h2.job-header__heading.js-job-item-name {
+    color: #4086ff;
+}
